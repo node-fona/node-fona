@@ -1,7 +1,7 @@
 {
-  "name": "zetta-fona-power-serial-driver",
+  "name": "zetta-fona-serial-driver",
   "version": "0.1.0",
-  "description": "Zetta FONA power serial device driver",
+  "description": "Zetta FONA serial device driver",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,7 +18,6 @@
   "keywords": [
     "zetta",
     "fona",
-    "power",
     "serial"
   ]
 }
