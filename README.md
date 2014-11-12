@@ -1,16 +1,16 @@
-##Zetta FONA serial device driver
+##Node FONA
 
 ###Install
 
 ```
-$> npm install zetta-fona-serial-driver
+$> npm install node-fona
 ```
 
 ###Usage
 
 ```
 var zetta = require('zetta');
-var Fona = require('zetta-fona-serial-driver');
+var Fona = require('node-fona');
 
 zetta()
   .use(Fona)
@@ -24,5 +24,8 @@ zetta()
 ###Transitions
 
 #####get-imei()
-###Design
 
+### Optional Components
+* SMS
+
+###Design

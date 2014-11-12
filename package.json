@@ -1,7 +1,7 @@
 {
-  "name": "zetta-fona-serial-driver",
+  "name": "node-fona",
   "version": "0.1.0",
-  "description": "Zetta FONA serial device driver",
+  "description": "A node.js library for FONA",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,10 @@
   "dependencies": {
     "zetta-device": "^0.8.0",
     "zetta-scout": "^0.4.0",
-    "zetta-serial-device-driver": "^0.5.2"
+    "zetta-serial-device-driver": "~0.5.5",
+    "zetta-fona-sms-serial-driver": "~0.1.2",
+    "zetta-fona-phone-serial-driver": "~0.1.1",
+    "zetta-fona-fm-radio-serial-driver": "~0.1.1"
   },
   "directories": {
     "example": "example"
@@ -18,6 +21,6 @@
   "keywords": [
     "zetta",
     "fona",
-    "serial"
+    "sms"
   ]
 }
