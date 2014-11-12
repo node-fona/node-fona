@@ -13,7 +13,10 @@
     "zetta-serial-device-driver": "~0.5.5",
     "zetta-fona-sms-serial-driver": "~0.1.2",
     "zetta-fona-phone-serial-driver": "~0.1.1",
-    "zetta-fona-fm-radio-serial-driver": "~0.1.1"
+    "zetta-fona-fm-radio-serial-driver": "~0.1.1",
+    "zetta-fona-network-serial-driver": "~0.1.1",
+    "zetta-fona-power-serial-driver": "~0.1.1",
+    "zetta-fona-sim-serial-driver": "~0.1.1"
   },
   "directories": {
     "example": "example"

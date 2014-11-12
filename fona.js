@@ -1,12 +1,15 @@
 var Device = require('zetta-device');
 var util = require('util');
 
-var Fona = module.exports = function(serial, phone, sms, fmRadio) {
+var Fona = module.exports = function(serial, phone, sms, fmRadio, network, power, sim) {
   Device.call(this);
   this._serialDevice = serial;
   this._phone = phone;
   this._sms = sms;
   this._fmRadio = fmRadio;
+  this._network = network;
+  this._power = power;
+  this._sim = sim;
 
   this.imei = null;
 };
